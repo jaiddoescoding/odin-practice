@@ -1,0 +1,25 @@
+.white {
+    color:white
+}
+
+.button {
+    color: white;
+    background-color: rgb(19, 161, 161);
+}
+
+* {
+    border: 2px solid red; 
+    background-color: #1F2937;
+}
+
+.photos {
+    display: fl
+}
+
+.flex-container {
+    display: flex;
+}
+
+.flex-container div {
+    background: peachpuff
+}
