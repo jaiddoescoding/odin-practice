@@ -1,3 +1,35 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    background: #1F2937;
+}
+
+.middle {
+    display: flex;
+    background: #1F2937;
+}
+
+.middle-left {
+    flex-direction: column;
+}
+
+.middle-right: {
+    justify-content:center;
+}
+
+.bottom {
+    flex-direction: column;
+    background: white;
+}
+
+.photos {
+    display: flex;
+}
+
+.photo-text {
+    color: rgb(49, 38, 59);
+}
+
 .white {
     color:white
 }
@@ -7,19 +39,28 @@
     background-color: rgb(19, 161, 161);
 }
 
+.logo {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+.main-text {
+    font-size: 48px;
+    font-weight: bolder;
+}
+
+.secondary-text {
+    font-size: 18px;
+    color: #E5E7EB
+}
+
+.text-img-intro {
+    text-align: center;
+    font-weight: bold;
+    font-size: 24px;
+}
+
 * {
-    border: 2px solid red; 
-    background-color: #1F2937;
+    border: 2px solid ed; 
 }
 
-.photos {
-    display: fl
-}
-
-.flex-container {
-    display: flex;
-}
-
-.flex-container div {
-    background: peachpuff
-}
