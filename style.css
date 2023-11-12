@@ -2,32 +2,50 @@
     display: flex;
     justify-content: space-between;
     background: #1F2937;
+    padding-left: 180px;
+    padding-right: 180px;
 }
 
 .middle {
     display: flex;
     background: #1F2937;
+    justify-content: center;
+    align-items: center;
+    gap: 26px;
+    padding-left: 180px;
+    padding-right: 180px;
 }
 
 .middle-left {
     flex-direction: column;
+    justify-content: center;
 }
 
-.middle-right: {
-    justify-content:center;
+.middle-right {
+    justify-content: center;
+    align-items: center;
+    text-align: center;    
 }
 
 .bottom {
     flex-direction: column;
     background: white;
+    padding-left: 180px;
+    padding-right: 180px;
 }
 
 .photos {
     display: flex;
+    justify-content: space-around;
+    gap: 10px;
+    align-items: flex-end;
 }
 
 .photo-text {
     color: rgb(49, 38, 59);
+    text-align: center;
+    align-items: flex-end;
+    justify-content: flex-end;
 }
 
 .white {
@@ -36,7 +54,11 @@
 
 .button {
     color: white;
-    background-color: rgb(19, 161, 161);
+    background-color: rgb(70, 153, 230);
+    border-radius: 6px;
+    display: flex;
+    align-self: flex-end;
+    gap: 36px;
 }
 
 .logo {
@@ -58,9 +80,28 @@
     text-align: center;
     font-weight: bold;
     font-size: 24px;
+    margin: 14px;
 }
 
 * {
-    border: 2px solid ed; 
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+img[src="images/siamese-blueeyes"] {
+    border-radius: 15px;
+}
+
+img[src="images/siamese-kitten"] {
+    border-radius: 15px;
+}
+
+img[src="images/siamese-subi"] {
+    border-radius: 15px;
+}
+
+.bottom-box {
+    flex-direction: column;
+    text-align: center;
 }
 
